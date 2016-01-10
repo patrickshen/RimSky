@@ -1,0 +1,163 @@
+<scene formatVersion="1.0.1" previous_export_time="1434336398.248318" exported_by="Patrick Shen" export_time="1434338160.121065" >
+  <nodes >
+    <node name="Point.004" >
+      <position y="7.448418" z="-1.473347" x="-3.767469" />
+      <rotation qw="1.000000" qy="0.000000" qz="-0.000000" qx="0.000000" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Point.004" type="point" >
+        <position y="7.448418" z="-1.473347" x="-3.767469" />
+        <lightAttenuation constant="1.0" linear="0.04" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Point.003" >
+      <position y="9.960426" z="1.559769" x="3.209381" />
+      <rotation qw="1.000000" qy="0.000000" qz="-0.000000" qx="0.000000" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Point.003" type="point" >
+        <position y="9.960426" z="1.559769" x="3.209381" />
+        <lightAttenuation constant="1.0" linear="0.04" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Point.002" >
+      <position y="7.377730" z="3.315801" x="-0.122179" />
+      <rotation qw="1.000000" qy="0.000000" qz="-0.000000" qx="0.000000" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Point.002" type="point" >
+        <position y="7.377730" z="3.315801" x="-0.122179" />
+        <lightAttenuation constant="1.0" linear="0.04" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Point.001" >
+      <position y="0.942605" z="-0.137276" x="-3.969570" />
+      <rotation qw="1.000000" qy="0.000000" qz="-0.000000" qx="0.000000" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Point.001" type="point" >
+        <position y="0.942605" z="-0.137276" x="-3.969570" />
+        <lightAttenuation constant="1.0" linear="0.04" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Point" >
+      <position y="1.495243" z="-4.269084" x="0.588606" />
+      <rotation qw="1.000000" qy="0.000000" qz="-0.000000" qx="0.000000" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" name="Point" type="point" >
+        <position y="1.495243" z="-4.269084" x="0.588606" />
+        <lightAttenuation constant="1.0" linear="0.04" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="tower" >
+      <position y="0.000000" z="-0.000000" x="0.000000" />
+      <rotation qw="0.707107" qy="0.000000" qz="-0.000000" qx="0.707107" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <entity mass_radius="1.0" velocity_max="0.0" lock_trans_y="False" velocity_min="0.0" physics_type="STATIC" anisotropic_friction="False" inertia_tensor="0.4000000059604645" actor="False" ghost="False" lock_trans_x="False" friction_z="1.0" meshFile="tower.mesh" friction_x="1.0" damping_trans="0.03999999910593033" lock_rot_y="False" damping_rot="0.10000000149011612" lock_trans_z="False" lock_rot_z="False" name="tower" mass="1.0" lock_rot_x="False" friction_y="1.0" />
+    </node>
+    <node name="Lamp" >
+      <position y="4.989658" z="-1.005454" x="4.076245" />
+      <rotation qw="0.570947" qy="0.755880" qz="-0.272171" qx="0.169076" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" shadow="true" name="Lamp" type="point" >
+        <position y="4.989658" z="-1.005454" x="4.076245" />
+        <lightAttenuation constant="1.0" linear="0.03333335240683057" range="5000" quadratic="0.0" />
+        <colourDiffuse g="1.0" b="1.0" r="1.0" />
+        <colourSpecular g="1.0" b="1.0" r="1.0" />
+        <colourShadow g="1.0" b="1.0" r="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position y="5.343665" z="6.507640" x="7.481132" />
+      <rotation qw="0.781600" qy="0.334251" qz="-0.212922" qx="0.481707" />
+      <scale y="1.000000" z="1.000000" x="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera projectionType="perspective" fov="0.5033799435163735" name="Camera" >
+        <clipping nearPlaneDist="0.10000000149011612" near="0.10000000149011612" far="100.0" farPlaneDist="100.0" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.002_RooftilesWood0047_1_M.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.001_WoodPlanksBeamed0042_.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.007.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.001.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.008.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.007_WoodPlanksBeamed0023_.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.002.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.003.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.003_BuildingsDerelict0132.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.005_1383-v8.jpg.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.004_WoodPlanksDirty0008_L.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material_BrickGroutless0025_3_.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Documents\RimSky\assets\Models\TowerNew\Material.006.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourBackground g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+    <colourAmbient g="0.0" b="0.0" r="0.0" />
+    <colourDiffuse g="0.05087608844041824" b="0.05087608844041824" r="0.05087608844041824" />
+  </environment>
+</scene>

@@ -1,0 +1,141 @@
+<scene export_time="1434002895.139253" exported_by="Patrick Shen" previous_export_time="1434001919.223899" formatVersion="1.0.1" >
+  <nodes >
+    <node name="Armature" >
+      <position x="0.000000" y="0.000000" z="-0.000000" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <node name="DrDoom" >
+        <position x="0.000000" y="0.000000" z="-0.000000" />
+        <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+        <scale x="1.000000" y="1.000000" z="1.000000" />
+        <game >
+          <sensors />
+          <actuators />
+        </game>
+        <entity lock_trans_z="False" damping_rot="0.10000000149011612" friction_z="1.0" anisotropic_friction="False" name="drdoomclassiccape" physics_type="STATIC" lock_rot_z="False" inertia_tensor="0.4000000059604645" mass="1.0" lock_rot_x="False" lock_rot_y="False" friction_y="1.0" mass_radius="1.0" meshFile="drdoomclassiccape.mesh" lock_trans_x="False" actor="False" friction_x="1.0" lock_trans_y="False" damping_trans="0.03999999910593033" velocity_min="0.0" velocity_max="0.0" ghost="False" />
+      </node>
+    </node>
+    <node name="Point.002" >
+      <position x="-0.001090" y="1.232901" z="3.066275" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" type="point" name="Point.002" >
+        <position x="-0.001090" y="1.232901" z="3.066275" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Sun.001" >
+      <position x="-0.304227" y="1.371356" z="2.571375" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" type="directional" name="Sun.001" >
+        <position x="-0.304227" y="1.371356" z="2.571375" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <direction x="0.0" y="-1.0" z="0.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Point.001" >
+      <position x="0.335737" y="0.395621" z="-2.820853" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" type="point" name="Point.001" >
+        <position x="0.335737" y="0.395621" z="-2.820853" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Point" >
+      <position x="0.805207" y="3.470107" z="0.874240" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" type="point" name="Point" >
+        <position x="0.805207" y="3.470107" z="0.874240" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Sun" >
+      <position x="1.540871" y="2.429347" z="101.927841" />
+      <rotation qy="0.000000" qz="-0.000000" qx="0.000000" qw="1.000000" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light powerScale="1.0" type="directional" name="Sun" >
+        <position x="1.540871" y="2.429347" z="101.927841" />
+        <lightAttenuation range="5000" linear="0.04" quadratic="0.0" constant="1.0" />
+        <direction x="0.0" y="-1.0" z="0.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Lamp" >
+      <position x="-1.803120" y="3.238286" z="0.956107" />
+      <rotation qy="-0.863136" qz="0.310791" qx="-0.193067" qw="0.348038" />
+      <scale x="208.030121" y="208.030136" z="208.030182" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <light shadow="true" powerScale="1.0" type="point" name="Lamp" >
+        <position x="-1.803120" y="3.238286" z="0.956107" />
+        <lightAttenuation range="5000" linear="0.03333335240683057" quadratic="0.0" constant="1.0" />
+        <colourDiffuse g="1.0" r="1.0" b="1.0" />
+        <colourSpecular g="1.0" r="1.0" b="1.0" />
+        <colourShadow g="1.0" r="1.0" b="1.0" />
+      </light>
+    </node>
+    <node name="Camera" >
+      <position x="7.481132" y="5.343665" z="6.507640" />
+      <rotation qy="0.334251" qz="-0.212922" qx="0.481707" qw="0.781600" />
+      <scale x="1.000000" y="1.000000" z="1.000000" />
+      <game >
+        <sensors />
+        <actuators />
+      </game>
+      <camera fov="0.5033799435163735" projectionType="perspective" name="Camera" >
+        <clipping farPlaneDist="100.0" far="100.0" nearPlaneDist="0.10000000149011612" near="0.10000000149011612" />
+      </camera>
+    </node>
+  </nodes>
+  <externals >
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Desktop\DoomModel\drdoomclassiccape.material" />
+    </item>
+    <item type="material" >
+      <file name="C:\Users\Patrick Shen\Desktop\DoomModel\drdoomclassicbody.material" />
+    </item>
+  </externals>
+  <environment >
+    <colourAmbient g="0.0" r="0.0" b="0.0" />
+    <colourDiffuse g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+    <colourBackground g="0.05087608844041824" r="0.05087608844041824" b="0.05087608844041824" />
+  </environment>
+</scene>
